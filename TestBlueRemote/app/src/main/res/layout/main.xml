@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_mouse_pad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/mousePad"
+        android:layout_width="411dp"
+        android:layout_height="605dp"
+        android:background="@android:color/background_dark"
+        android:text="@string/textview" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_alignParentBottom="true"
+        android:padding="3dp">
+
+        <Button
+            android:id="@+id/leftMouse"
+            android:layout_width="200dp"
+            android:layout_height="92dp"
+            android:text="@string/left_mouse"
+            android:textSize="20sp"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/rightMouse"
+            android:layout_width="200dp"
+            android:layout_height="92dp"
+            android:text="@string/right_mouse"
+            android:textSize="20sp"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+</RelativeLayout>
